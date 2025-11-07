@@ -8,7 +8,7 @@ from langchain_classic.prompts import PromptTemplate
 import json
 import os
 
- os.environ["OPENAI_API_KEY"] = "CHAVE_API"
+os.environ["OPENAI_API_KEY"] = "CHAVE_API"
 
 class PDFExtractorRAG:
     def __init__(self, model_name="gpt-5-mini", embedding_model="text-embedding-ada-002"):

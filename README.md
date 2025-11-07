@@ -35,6 +35,25 @@ O processo segue três etapas: regex simples → regex avançado → RAG, garant
 
 ## 🚀 Como Usar
 
+### 💡 Recomendação: use um ambiente virtual
+
+Para isolar as dependências da aplicação e evitar conflitos, recomenda-se criar um ambiente virtual antes de instalar os pacotes. Você pode usar:
+
+###### venv (embutido no Python):
+
+```bash
+python -m venv env
+source env/bin/activate   # Linux/macOS
+.\env\Scripts\activate    # Windows
+```
+
+###### conda (se usar Anaconda/Miniconda):
+
+```bash
+conda create --name myenv python=3.x
+conda activate myenv
+```
+
 ###### 1. Clone o repositório: 📥
 
 `git clone https://github.com/whoisraibolt/pdf-schema-extractor.git`
@@ -60,7 +79,7 @@ O processo segue três etapas: regex simples → regex avançado → RAG, garant
   "pdf_path": "oab_1.pdf"
 }
 ```
-OU
+Ou:
 
 ```json
 [

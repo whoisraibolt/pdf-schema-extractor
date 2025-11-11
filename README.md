@@ -166,7 +166,7 @@ Para testar a API, foi utilizado o Postman, mas qualquer cliente HTTP (como cURL
 ### 🚧 Trabalhos Futuros
 
 - **Extração zonal antes do regex:** Implementar uma etapa de pré-processamento para extrair texto apenas de regiões específicas do PDF (zonas delimitadas), reduzindo ruído e aumentando a eficácia do regex. 📊
-- **Cache inteligente: **Armazenar resultados parciais para acelerar extrações repetidas em documentos semelhantes. 🗃️
+- **Cache inteligente:** Armazenar resultados parciais para acelerar extrações repetidas em documentos semelhantes. 🗃️
 - **Melhoria contínua do modelo RAG:** Ajustar o contexto e otimizar prompts para reduzir chamadas ao LLM e acelerar respostas. 🔄
 
 ### 📬 Contato
